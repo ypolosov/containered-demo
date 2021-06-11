@@ -2,12 +2,12 @@ version: "3.7"
 
 services:
   launch:
-    image: ypolosov/containered-demo:${TAG}
-    container_name: containered-demo-${TAG}
+    image: ypolosov/containered-demo:${GIT_HASH}
+    container_name: containered-demo-${GIT_HASH}
     tty: true
     ports:
       - 4200:4200
     volumes:
       - .:/workspace:cached
      # Overrides default command so things don't shut down after the process ends.
-    command: /bin/sh -c "while sleep 1000; do :; done"
+    # command: /bin/sh -c "while sleep 1000; do :; done"

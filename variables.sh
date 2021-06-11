@@ -1,5 +1,5 @@
 #!/bin/bash
-echo --------- VARIABLES --------
+########## VARIABLES #########
 
 ACCOUNT_NAME='ypolosov'
 echo "ACCOUNT_NAME=$ACCOUNT_NAME"
