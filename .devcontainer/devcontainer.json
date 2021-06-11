@@ -1,0 +1,7 @@
+{
+    "image": "ypolosov/containered-demo:initial",
+    "runArgs": [
+        "--env-file",
+        ".devcontainer/devcontainer.env"
+    ]
+}
