@@ -1,1 +1,1 @@
-echo TAG=$(git rev-parse --short HEAD) > .env
+bash ./variables.sh > .env
