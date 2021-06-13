@@ -24,6 +24,8 @@
     "husky": "^6.0.0"
   },
   "husky": {
-    "pre-commit": "echo bla-bla-bla > .env"
+    "hooks": {
+      "pre-commit": "echo bla-bla > .env"
+    }
   }
 }
