@@ -4,6 +4,7 @@
   "description": "Containered demo",
   "main": "app.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "node app.js"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "homepage": "https://github.com/ypolosov/containered-demo#readme",
   "dependencies": {
     "chalk": "^4.1.1"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0"
+  },
+  "husky": {
+    "pre-commit": "echo bla-bla-bla"
   }
 }
