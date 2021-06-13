@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "node app.js"
+    "test": "node app.js",
+    "xxx": "echo bla-bla"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo bla-bla"
+      "pre-commit": "npm run xxx"
     }
   }
 }
