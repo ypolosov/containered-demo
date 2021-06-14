@@ -1,1 +1,0 @@
-bash ./variables.sh > .env

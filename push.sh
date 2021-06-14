@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -------- COMMIT ---------
 
-source ./variables.sh
+source ./tag-name.sh
 
 set -x
 

@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "node app.js",
-    "xxx": "bash ./init.sh"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",

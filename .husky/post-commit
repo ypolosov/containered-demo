@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo --------- POST-COMMIT -----------------
+
+bash ./commit.sh \
+    && bash ./push.sh

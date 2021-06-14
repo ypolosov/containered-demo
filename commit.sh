@@ -1,8 +1,9 @@
 #!/bin/bash
 echo -------- COMMIT ---------
 
-source ./variables.sh
+source ./tag-name.sh
+source ./container-id.sh
 
 set -x
 
-docker commit --author $AUTHOR --message "$MESSAGE" containered-demo-360c334 $TAG_NAME
+docker commit --author $AUTHOR --message "$MESSAGE" $CONTAINER_ID $TAG_NAME
