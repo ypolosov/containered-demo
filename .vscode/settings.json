@@ -2,7 +2,7 @@
     "cofc.commands": [
         {
             "cmd": "remote-containers.openFolder",
-            "path": "/workspace/scripts/is-checkout"
+            "path": "/workspace/is-checkout"
         }
     ]
 }
