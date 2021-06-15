@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo --------- POST-MERGE -----------------
+
+bash ./scripts/commit.sh \
+    && bash ./scripts/push.sh

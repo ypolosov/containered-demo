@@ -1,7 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo --------- PRE-COMMIT -----------------
-# bash ./init.sh \
-#     && bash ./scripts/commit.sh \
-#     && bash ./scripts/push.sh
