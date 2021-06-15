@@ -3,4 +3,4 @@
 
 echo --------- POST-CHECKOUT -----------------
 
-bash ./git-hash.sh
+bash ./scripts/git-hash.sh

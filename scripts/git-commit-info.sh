@@ -1,7 +1,7 @@
 #!/bin/bash
 ########## GIT-COMMIT-INFO #########
 
-source ./git-hash.sh
+source ./scripts/git-hash.sh
 
 AUTHOR=$(git config user.name):$(git config user.email)
 echo "AUTHOR=$AUTHOR"

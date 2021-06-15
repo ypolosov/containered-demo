@@ -1,8 +1,8 @@
 #!/bin/bash
 echo -------- COMMIT ---------
 
-source ./tag-name.sh
-source ./container-id.sh
+source ./scripts/tag-name.sh
+source ./scripts/container-id.sh
 
 set -x
 

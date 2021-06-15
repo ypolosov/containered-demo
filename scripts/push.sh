@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -------- PUSH ---------
 
-source ./tag-name.sh
+source ./scripts/tag-name.sh
 
 set -x
 

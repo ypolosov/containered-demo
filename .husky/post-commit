@@ -3,5 +3,5 @@
 
 echo --------- POST-COMMIT -----------------
 
-bash ./commit.sh \
-    && bash ./push.sh
+bash ./scripts/commit.sh \
+    && bash ./scripts/push.sh
