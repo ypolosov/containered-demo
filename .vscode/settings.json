@@ -1,0 +1,8 @@
+{
+    "cofc.commands": [
+        {
+            "cmd": "remote-containers.openFolder",
+            "path": "/workspace/.env"
+        }
+    ]
+}

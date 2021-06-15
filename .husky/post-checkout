@@ -4,3 +4,5 @@
 echo --------- POST-CHECKOUT -----------------
 
 bash ./scripts/git-hash.sh
+
+node ./scripts/reopen.js
