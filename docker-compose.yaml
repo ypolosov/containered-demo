@@ -7,9 +7,9 @@ services:
     tty: true
     ports:
       - 4200:4200
+    init: true
     volumes:
+      - /var/run/docker.sock:/var/run/docker-host.sock
       - .:/workspace:cached
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /usr/bin/docker:/usr/bin/docker
      # Overrides default command so things don't shut down after the process ends.
     # command: /bin/sh -c "while sleep 1000; do :; done"
