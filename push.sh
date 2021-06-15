@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -------- COMMIT ---------
+echo -------- PUSH ---------
 
 source ./tag-name.sh
 
