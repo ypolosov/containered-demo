@@ -8,4 +8,4 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 echo "DOCKER setup ->"
 
-# docker login
+docker login
