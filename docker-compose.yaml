@@ -2,6 +2,8 @@ version: "3.7"
 
 services:
   launch:
+    # environment:
+    #   - GIT_HASH=${GIT_HASH:-docker-from-docker}
     image: ypolosov/containered-demo:${GIT_HASH}
     container_name: containered-demo-${GIT_HASH}
     tty: true
@@ -9,6 +11,8 @@ services:
       - 4200:4200
     init: true
     volumes:
+      - ~/.ssh:/home/node/.ssh:ro
+      - ~/.docker:/home/node/.docker
       - /var/run/docker.sock:/var/run/docker-host.sock
       - .:/workspace:cached
      # Overrides default command so things don't shut down after the process ends.

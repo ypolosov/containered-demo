@@ -1,6 +1,11 @@
 #!/bin/bash
 echo -------- LOGIN ---------
 
-set -x
+# set -x
 
-docker login
+echo "SSH setup ->"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+echo "DOCKER setup ->"
+
+# docker login
