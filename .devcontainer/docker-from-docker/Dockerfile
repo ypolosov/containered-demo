@@ -7,5 +7,3 @@ RUN apt-get update && bash /tmp/library-scripts/docker-debian.sh
 ENTRYPOINT ["/usr/local/share/docker-init.sh"]
 
 CMD ["sleep", "infinity"]
-
-WORKDIR /workspace
