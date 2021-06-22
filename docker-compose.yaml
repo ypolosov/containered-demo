@@ -15,6 +15,7 @@ services:
       - ~/.ssh:/home/node/.ssh:ro
       - ~/.docker:/home/node/.docker
       - /var/run/docker.sock:/var/run/docker-host.sock
+      # for Linux
       - .:/workspace:cached
-     # Overrides default command so things don't shut down after the process ends.
-    # command: /bin/sh -c "while sleep 1000; do :; done"
+      # for macOS
+      # - .:/workspace:delegated
