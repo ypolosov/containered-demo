@@ -5,3 +5,5 @@ echo --------- POST-MERGE -----------------
 
 bash ./scripts/commit.sh \
     && bash ./scripts/push.sh
+
+    bash ./scripts/git-hash.sh > ./is-checkout
