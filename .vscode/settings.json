@@ -1,7 +1,7 @@
 {
     "cofc.commands": [
         {
-            "cmd": "remote-containers.reopenLocally",
+            "cmd": "workbench.action.remote.close",
             "path": "/workspace/is-checkout"
         }
     ]

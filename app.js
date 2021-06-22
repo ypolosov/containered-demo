@@ -1,4 +1,3 @@
 const chalk = require('chalk');
 
-console.log('some changes in branch-2!');
-console.log(chalk.yellowBright('Initial project state!'));
+console.log(chalk.yellowBright('Initial project state!!!2222!!!!1!!333!!!!!!222222222!!!!!!!!!!!!!!!!!111222'));
