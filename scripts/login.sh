@@ -15,5 +15,5 @@ echo "New ssh key:"
 ssh-add -l
 echo
 echo "DOCKER setup ->"
-docker logout
+# docker logout
 docker login
