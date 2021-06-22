@@ -11,9 +11,9 @@ services:
       - 4200:4200
     init: true
     volumes:
-      - ~/.gitconfig:/home/node/.gitconfig:ro
+      - ~/.gitconfig:/home/node/.gitconfig
       - ~/.ssh:/home/node/.ssh:ro
-      - ~/.docker:/home/node/.docker:ro
+      - ~/.docker:/home/node/.docker
       - /var/run/docker.sock:/var/run/docker-host.sock
       - .:/workspace:cached
      # Overrides default command so things don't shut down after the process ends.
