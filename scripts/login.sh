@@ -4,11 +4,12 @@ echo -------- LOGIN ---------
 # set -x
 
 echo "SSH setup ->"
-eval "$(ssh-agent -s)"
 echo "Previous ssh key:"
 ssh-add -l
-echo "Remove previous ssh key:"
-ssh-add -k
+echo "Stop ssh-agent"
+ssh-agent –k
+echo "Start ssh-agent:"
+eval "$(ssh-agent -s)"
 echo "Add new ssh key:"
 ssh-add ~/.ssh/id_rsa
 echo "New ssh key:"
