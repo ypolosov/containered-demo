@@ -7,7 +7,7 @@ echo "SSH setup ->"
 echo "Previous ssh key:"
 ssh-add -l
 echo "Stop ssh-agent"
-ssh-agent –k
+eval "$(ssh-agent -k)"
 echo "Start ssh-agent:"
 eval "$(ssh-agent -s)"
 echo "Add new ssh key:"
