@@ -1,3 +1,3 @@
 const chalk = require('chalk');
 
-console.log(chalk.yellowBright('Initial project state! XXXXXX YO'));
+console.log(chalk.yellowBright('Initial project state! XXX!!!!!!XXX YO'));
